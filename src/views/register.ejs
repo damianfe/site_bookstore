@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <%- include('partials/head') %>
+  <body>
+    <%- include('partials/header') %>
+  <main class="register">
+    <section class="register-box">
+      <h2>Bienvenido</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam exercitationem expedita ratione, nemo quas fuga a nihil ut vel perspiciatis natus, distinctio architecto repudiandae porro voluptatibus neque optio qui tempore.
+      </p>
+      <article class="register-form">
+        <form action="" class="register-form-info">
+          <div class="register-info">
+            <input type="text" id="nombre" name="nombre" placeholder="Escribi tu nombre">
+            <label for="nombre"></label>
+            <span hidden>Obligatorio</span>
+          </div>
+          <div class="register-info">
+            <input type="text" id="apellido" name="apellido" placeholder="Escribi tu apellido">
+            <label for="apellido"></label>
+            <span hidden>Obligatorio</span>
+          </div>
+          <div class="register-info">
+            <label for="pais"></label>
+            <select name="pais" id="pais">
+              <option value="">-Seleccione su país</option>
+              <option value="ar">Argentina</option>
+              <option value="br">Brasil</option>
+              <option value="bo">Bolivia</option>
+              <option value="ch">Chile</option>
+              <option value="co">Colombia</option>
+              <option value="ec">Ecuador</option>
+              <option value="pa">Paraguay</option>
+              <option value="pe">Perú</option>
+              <option value="ve">Venezuela</option>
+              <option value="ur">Uruguay</option>
+            </select>
+
+          </div>
+          <div class="register-info">
+            <input type="text" id="reside" name="reside" placeholder="Provincia/Localidad">
+            <label for="reside"></label>
+
+          </div>
+          <div class="register-info">
+            <input type="date" name="fecha" min="1930-01-01" max="2010-12-31" placeholder="Fecha de nacimiento">
+            <label for="fecha"></label>
+          </div>
+          <div class="register-eleccion">
+          <p>Elige tus preferencias:</p>
+          <ul>
+            <li>
+              <input type="checkbox" name="preferecias" id="Ficcion" value="F">
+              <label for="Ficcion">Ficcion</label>
+            </li>
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Romance" value="R">
+              <label for="Romance">Romance</label>
+            </li>
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Comics-Mangas" value="C">
+              <label for="Comics-Mangas">Comics y Mangas</label>
+            </li>
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Literatura" value="l">
+              <label for="Literatura">Literatura</label>
+            </li>
+
+
+            <li> 
+              <input type="checkbox" name="preferecias" id="no Ficcion" value="n">
+              <label for="no Ficcion">No Ficcion </label>
+            </li>
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Infantiles" value="i">
+              <label for="Infantiles">Infantiles</label>
+            </li>
+
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Arte" value="a">
+              <label for="Arte">Arte</label>
+            </li>
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Filosofia" value="f">
+              <label for="Filosofia">Filosofia</label>
+            </li>
+
+
+
+            <li>
+              <input type="checkbox" name="preferecias" id="Otros" value="o">
+              <label for="Otros">Otros</label>
+            </li>
+
+          </ul>
+        </div>
+          <div class="register-info">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <label for="email"></label>
+            <span hidden>Obligatorio</span>
+          </div>
+          <div class="register-info">
+            <input type="password" id="password" name="password" placeholder="Contraseña">
+            <label for="password"></label>
+            <span hidden>Obligatorio</span>
+          </div>
+          <div class="register-info">
+            <input type="password" id="password" name="password" placeholder="Contraseña">
+            <label for="password"></label>
+            <span hidden>Obligatorio</span>
+          </div>
+          <div class="register-condiciones">
+            <input type="checkbox" name="terminos" id="terminos">
+            <label for="terminos">Aceptar <a href="">Terminos y Condiciones</a></label>
+          </div>
+          <div class="register-boton-box">
+            <button class="register-button" type="submit"><a href="/users/login">Registrarme</a></button>
+            <button class="register-button" type="reset"> <a href="/">Cancelar</a></button>
+          </div>
+
+          <div class="register-info">
+            <p>O puedes registrarte con:</p>
+            <div class="register-boton-box">
+              <button class="register-boton-rojo"> <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa-brands fa-google-plus"></i> Google </a></button>
+
+              <button class="register-boton-azul"><a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></button>
+            </div>
+          </div>
+        </form>
+      </article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, suscipit iste esse provident laudantium fugit
+        nostrum debitis sint inventore. Dicta placeat culpa velit consequuntur dolore ut sunt ex doloribus nulla!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, accusantium tempore suscipit, hic iusto
+        nisi quae facere cupiditate nemo distinctio explicabo sed reprehenderit. Delectus autem pariatur porro magnam,
+        incidunt quidem.
+      </p>
+    </section>
+  </main>
+  <%- include('partials/footer') %>   
+</body>
+
+</html>

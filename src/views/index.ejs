@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <%- include('partials/head') %>
+  <body>
+    <%- include('partials/header') %>
+  
+    <main class="home">
+  
+      <div class="home__banner"><img src="/images/fondoHome.jpg" alt="" /></div>
+  
+      <section class="home__categorias__titulo">
+        <h3>Categorías</h3>
+      </section>
+  
+      <section class="home__categorias">
+        <article class="home__categorias__niños">
+          <div class="home__categorias__niños__circle">
+            <a href="#"><img src="/images/book-kids.png" alt="" /></a>
+          </div>
+          <a href="" class="home__categorias__niños__texto1">
+            <h3>NIÑOS</h3>
+          </a>
+        </article>
+  
+        <article class="home__categorias__jovenes">
+          <div class="home__categorias__jovenes__circle">
+            <a href="#"><img src="/images/book-jovs.png" alt="" /></a>
+          </div>
+          <a href="#" class="home__categorias__niños__texto2">
+            <h3>JÓVENES</h3>
+          </a>
+        </article>
+  
+        <article class="home__categorias__adultos">
+          <div class="home__categorias__adultos__circle">
+            <a href="#"><img src="/images/book-adults.png" alt="" /></a>
+          </div>
+          <a href="" class="home__categorias__niños__texto3">
+            <h3>ADULTOS</h3>
+          </a>
+        </article>
+      </section>
+  
+      <section class="home__best-sellers__titulo">
+        <h3>Best sellers</h3>
+      </section>
+  
+      <section class="home__best-sellers">
+        <% products.forEach(product => { %>
+          <article class="home__best-sellers__producto1">
+            <div class="home__best-sellers__producto1__circulo">
+              <a href="/products/detail/<%= product.id %> "><img src="/images/bestia.png" alt="libro La Bestia"></a>
+            </div>
+            <div class="home__best-sellers__producto1__transparente"></div>
+            <div class="titulo">
+              <h5><a href="/products/detail/" title="La Bestia">La Bestia</a></h5>
+            </div>
+            <div class="autor">
+              <p>Carmen Mola</p>
+            </div>
+            <div class="precio">
+              <strong>$ <%= product.price %> </strong>
+            </div>
+            <div class="home__best-sellers__producto1__estrellas">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i>
+            </div>
+          </article>
+        <% }) %>
+        
+  
+        <article class="home__best-sellers__producto2">
+          <div class="home__best-sellers__producto2__circulo">
+            <a href="#"><img src="/images/fuego.png" alt=""></a>
+          </div>
+          <div class="home__best-sellers__producto2__transparente"></div>
+          <div class="titulo">
+            <h5><a href="#" title="Trilogía Fuego">Trilogía Fuego </a></h5>
+          </div>
+          <div class="autor">
+            <p>Joana Marcús</p>
+          </div>
+          <div class="precio">
+            <span class="libro2">$2200</span>
+          </div>
+          <div class="home__best-sellers__producto2__estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star-half-alt"></i>
+          </div>
+        </article>
+  
+        <article class="home__best-sellers__producto3">
+          <div class="home__best-sellers__producto3__circulo">
+            <a href="#"><img src="/images/kazan.png" alt=""></a>
+          </div>
+          <div class="home__best-sellers__producto3__transparente"></div>
+          <div class="titulo">
+            <h5><a href="#" title="Operación kazán">Operación Kazán</a></h5>
+          </div>
+          <div class="autor">
+            <p>Vicente Vallés</p>
+          </div>
+          <div class="precio">
+            <span class="libro3">$8000</span>
+          </div>
+          <div class="home__best-sellers__producto3__estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star-half-alt"></i>
+          </div>
+        </article>
+  
+        <article class="home__best-sellers__producto4">
+          <div class="home__best-sellers__producto4__circulo">
+            <a href="#"><img src="/images/mike.png" alt=""></a>
+          </div>
+          <div class="home__best-sellers__producto4__transparente"></div>
+          <div class="titulo">
+            <h5><a href="#" title="Mikecrack y la estrella maldita">Mikecrack y la...</a></h5>
+          </div>
+          <div class="autor">
+            <p>Mikecrack</p>
+          </div>
+          <div class="precio">
+            <span class="libro4">$2700</span>
+          </div>
+          <div class="home__best-sellers__producto4__estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star"></i>
+          </div>
+        </article>
+  
+      </section>
+  
+    </main>
+    <%- include('partials/footer') %>   
+  </body>
+</html>

@@ -1,0 +1,170 @@
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECE5DF;
+}
+
+/* LOGO */
+
+.header .logo img {
+    width: 80px;
+    
+}
+
+/* NAVEGADOR */
+
+.header .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 32px;
+
+}
+
+.header .navbar .nav_links {
+    display: none;
+    list-style: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+/* BUSCADOR */
+
+.header .nav-search {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav-search .nav-search-input {
+    height: 25px;
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+}
+
+.header .nav-search .lupa {
+    width: 20px;
+    height: 20px;
+    transform: translateX(-30px);
+}
+
+
+/* MENU HAMBURGUESA */
+
+.header .menu-button {
+    padding: 15px;
+}
+
+.header .menu-button i {
+    font-size: 25px;
+    
+}
+
+/* ICONOS */
+
+.header .icons {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+/* CARRITO */
+
+.header .icons .cart {
+    color: black;
+    font-size: 25px;
+    
+}
+
+/* USER */
+
+.header .icons .user {
+    color: black;
+    font-size: 25px;
+    margin-left: 32px;
+}
+
+
+
+/* TABLET */
+
+@media (min-width: 768px) {
+
+    header {
+        height: 58px;
+        padding: 10px;
+    }
+
+    .header .logo img {
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header .nav-search {
+        width: 50vw;
+        
+    }
+
+    .header .menu-button i {
+        font-size: 30px;
+        
+    }
+
+
+
+}
+
+/* LAPTOP */
+
+@media (min-width: 1024px) {
+
+    header {
+        height: 58px;
+    }
+
+    .header .logo img {
+        width: 100px;
+        margin-left: 15px;
+        
+    }
+
+    .header .navbar .nav_links {
+
+        display: flex;
+        list-style: none;
+        font-size: 18px;
+    }
+
+
+    .header .nav-search .nav-search-input {
+        
+        width: 100%;
+        
+    }
+
+    .header .menu-button {
+        display: none;
+    }
+
+    .header .icons {
+        display: flex;
+        
+    }
+}

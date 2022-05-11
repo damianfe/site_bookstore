@@ -1,0 +1,191 @@
+.login{
+    background-image: url(/images/fondologin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* caja contenedora*/
+.login-box{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(55, 55, 55, 0.7);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+ /* Titulo*/
+.login-box h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    text-align:justify;
+    text-transform: uppercase;
+}
+
+/* Caja contenedora del form */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0px 20px;
+    color: var(--white);
+    width: 100%;
+}
+
+/* informacion de inicio de sesion*/
+.login-info{
+    margin:10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.login-info input{
+    border-radius: 5%;
+    border: none;
+    padding: 15px;
+    background-color: var(--rosa);
+    color: var(--white);
+    width: 100%;
+    outline-color: rgba(49, 138, 172, 0);
+    transition: all 0.5s ease-in;
+
+}
+.login-info input:hover{
+    box-shadow: 0 4px 16px var(--rosa);
+}
+.login-info label{
+    font-size: 12px;
+}
+
+.login-info p{
+    font-size: 12px;
+}
+
+#recordarme{
+    width: 10%;
+    padding: 5px;
+}
+
+/* olvido de contraseña*/
+.login-pregunta{
+    font-size: 12px;
+}
+
+/* boton de inicio*/
+.login-info a{
+    padding: 5px;
+    color: var(--white);
+    text-align: center;
+    display: block;
+}
+.login-info button a{
+    color: var(--grisOscuro);
+    transition: all 0.5s ease-in;
+}
+.login-info button a:hover{
+    color: var(--white);
+}
+
+.login-info button {
+    background-color: var(--rosa);
+    border-radius: 9px;
+    border-style: none;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+    margin-top: 10px;
+}
+.login-info button:hover {
+    box-shadow: 0 4px 16px var(--rosa);
+}
+
+/*direcciones para poder entrar en con google o facebook*/
+.login-info-direcciones{
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+    font-size: 12px;
+}
+.login-direcciones-paginas{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+.login-direccion-rojo{
+    background-color: rgb(243, 87, 87);
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.5s ease-out;
+    color: var(--white);
+}
+.login-direccion-rojo:hover{
+    background-color: var(--rosa);
+    box-shadow: 0 4px 16px rgb(247,74,74);
+    color: rgb(243,87,87);
+}
+
+.login-direccion-rojo a{
+    color: var(--white);
+    font-size: 14px;
+}
+.login-direccion-rojo a:hover{
+    color: rgb(243,87,87);
+}
+
+.login-direccion-azul{
+    background-color: rgb(88, 119, 160);
+    color: var(--white);
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.5s ease-in;
+}
+.login-direccion-azul:hover{
+    background-color: var(--rosa);
+    color: rgb(88, 119, 160);
+    box-shadow: 0 4px 16px rgb(88, 119, 160);
+}
+.login-direccion-azul button{
+    background-color: #0423ad;
+}
+
+.login-direccion-azul a{
+    color: var(--white);
+    font-size: 14px;
+}
+.login-direccion-azul a:hover{
+    color: rgb(88, 119, 160);
+}
+
+
+@media (min-width: 768px){
+    .login{
+        background-image: url(/images/fondoHome.jpg);
+    }
+    .login-box{
+        width: 70%;
+    }
+    .login-form{
+        padding: 10px;
+    }
+    .login-info label{
+        font-size: 14px;
+    }
+    
+    .login-info p{
+        font-size: 14px;
+    }
+    .login-info a{
+        font-size: 14px;
+    }
+    .login-info-direcciones p{
+        font-size: 14px;
+    }
+}

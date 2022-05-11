@@ -1,0 +1,149 @@
+footer {
+    background-color: var(--rosa);
+
+}
+
+li {
+    list-style: none;
+}
+
+.footer__section {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer__section__redes,
+.footer__section__tematicas,
+.footer__section__autores,
+.footer__section__creditos,
+.footer__section__copyright {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer__redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer__redes li a {
+    font-size: 20px;
+    color: var(--grisOscuro);
+
+}
+
+
+ h4  {
+    color: var(--grisOscuro);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 2.1rem;
+    margin-bottom: 10px;
+}
+
+.footer__list li,
+.footer__autores li {
+    margin: 0 0 5px 0;
+    
+}
+
+.footer__list li a,
+.footer__autores li a {
+    font-size: 14px;
+    color: var(--grisOscuro);
+    
+}
+
+.footer__section__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.footer__section__logo a img {
+    width: 120px;
+}
+
+.footer__section__logo h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--grisOscuro);
+}
+
+.footer__section__creditos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__section__creditos a {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: var(--grisOscuro);
+}
+
+.footer__section__copyright p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--grisOscuro);
+}
+
+@media (min-width: 1024px) {
+
+    .footer__section {
+        width: 80%;
+        display: flex;
+        padding: 20px 0px 40px;
+    }
+ 
+    .footer__section__redes,
+    .footer__section__tematicas,
+    .footer__section__autores,
+    .footer__section__creditos,
+    .footer__section__copyright {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        align-content: space-around;
+        width: 33%;
+    }
+ 
+    .footer__final {
+        display: flex;
+        align-items: center;
+        width: 86%;
+        margin: 0px auto;
+        text-align: center;
+        
+    }
+ 
+    .footer__section__logo {
+        width: 33%;
+    }
+
+    .footer__section__copyright {
+        display: flex;
+        justify-content: end;
+    }
+
+    .footer__redes li a {
+        font-size: 40px;
+    }
+
+    .footer__list li a, .footer__autores li a {
+        font-size: 18px;
+    }
+
+    .footer__list li, .footer__autores li {
+        margin: 0 0 10px 0;
+    }
+}

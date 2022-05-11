@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <%- include('partials/head') %>
+  <body>
+    <%- include('partials/header') %>
+    <main class="main-creaEdit">
+        <section class="creaEdit-section">
+            <form action="" class="creaEdit-form">
+                <h2>Nuevo producto</h2>
+                <div class="creaEdit-div">
+                    <input type="text" id="titulo" name="titulo" placeholder="Titulo">
+                    <label for="titulo"></label>
+                </div>
+                <div class="creaEdit-div">
+                    <input type="text" id="autor" name="autor" placeholder="Autor/a">
+                    <label for="autor"></label>
+                </div>
+                <div class="creaEdit-div">
+                    <textarea id="descripcion" name="descripcion" placeholder="Descripcion"></textarea>
+                    <label for="descripcion"></label>
+                </div>
+                <div class="creaEdit-div">
+                    <label for="img"></label>
+                    <input class=" form-control" type="file" id="img" name="img" accept=".jpg, .png" multiple>
+                </div>
+                <div class="creaEdit-div">
+                    <input type="text" id="formato" name="formato" placeholder="Formato">
+                    <label for="formato"></label>
+                </div>
+                <div class="creaEdit-div">
+                    <label for="Categorias"></label>
+                    <select name="Categorias" id="Categorias">
+                    <option value="">-Seleccione la categoria correspondiente</option>
+                    <option value="fi">Ficcion</option>
+                    <option value="ro">Romance</option>
+                    <option value="po">Policial</option>
+                    <option value="te">Terror</option>
+                    <option value="ar">Arte</option>
+                    <option value="nof">No Ficcion</option>
+                    <option value="co">Comics-Mangas</option>
+                    <option value="filo">Filosofia</option>
+                    <option value="in">Infantil</option>
+                    <option value="li">Literatura</option>
+                    <option value="ot">Otros</option>
+            </select>
+                </div>
+                <div class="creaEdit-div">
+                    <input type="text" id="precio" name="precio" placeholder="Precio">
+                    <label for="precio"></label>
+                </div>
+                <div class="creaEdit-div">
+                    <input type="text" id="cuotas" name="cuotas" placeholder="cuotas">
+                    <label for="cuotas"></label>
+                </div>
+                <div class="creaEdit-button">
+                    <button  class="">
+                        <a href="/products/creation">Limpiar</a>
+                    </button>
+                    <button  class="">
+                        <a href="/products/creation">Guardar</a>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+  </body>
+  
+</html>
