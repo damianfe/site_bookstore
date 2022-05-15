@@ -5,5 +5,11 @@ module.exports ={
         res.render('index', { 
             products,
              });
+      },
+      search:(req,res) =>{
+          res.render('products',{
+              products,
+
+          })
       }
   }
