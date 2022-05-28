@@ -1,0 +1,10 @@
+/* EN PROCESO */
+main.main-search {
+    text-align: center;
+    margin-top: 20px;
+}
+h2.product-not-found {
+    color: var(--white);
+text-shadow: 5px 5px 10px #0e0d0d,
+             -5px -5px 10px #070707;
+}

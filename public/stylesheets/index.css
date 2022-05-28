@@ -152,6 +152,7 @@
     display: flex;
     justify-content: center;
     margin: 5px;
+    color: var(--rosa);
 }
 
 .home__best-sellers__producto1 .precio .libro1,
@@ -198,6 +199,7 @@ a {
 .home__best-sellers__producto3 .titulo h5 a,
 .home__best-sellers__producto4 .titulo h5 a {
     color: var(--white);
+    text-align: center;
 }
 
 .home__best-sellers__producto1 .titulo h5,

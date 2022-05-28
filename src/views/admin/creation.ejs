@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <%- include('partials/head', {
-        title: 'Paginas Bellas || Creacion'
-    }) %>
+  <%- include('partials/head') %>
   <body>
     <%- include('partials/header') %>
     <main class="main-creaEdit">
         <section class="creaEdit-section">
-            <form method="POST" action="" class="creaEdit-form">
+            <form action="" class="creaEdit-form">
                 <h2>Nuevo producto</h2>
                 <div class="creaEdit-div">
-                    <input type="text" id="name" name="name" placeholder="Nombre">
+                    <input type="text" id="titulo" name="titulo" placeholder="Titulo">
                     <label for="titulo"></label>
                 </div>
                 <div class="creaEdit-div">
-                    <input type="text" id="author" name="author" placeholder="Autor/a">
+                    <input type="text" id="autor" name="autor" placeholder="Autor/a">
                     <label for="autor"></label>
                 </div>
                 <div class="creaEdit-div">
-                    <textarea id="description" name="description" placeholder="Descripcion"></textarea>
+                    <textarea id="descripcion" name="descripcion" placeholder="Descripcion"></textarea>
                     <label for="descripcion"></label>
                 </div>
                 <div class="creaEdit-div">
@@ -47,7 +45,7 @@
             </select>
                 </div>
                 <div class="creaEdit-div">
-                    <input type="text" id="price" name="price" placeholder="Precio">
+                    <input type="text" id="precio" name="precio" placeholder="Precio">
                     <label for="precio"></label>
                 </div>
                 <div class="creaEdit-div">
@@ -55,14 +53,12 @@
                     <label for="cuotas"></label>
                 </div>
                 <div class="creaEdit-button">
-                    <button type="submit">Guardar</button>
-                    <button type="reset">Limpiar</button>
-                    <!-- <button type="reset"  class="">
+                    <button  class="">
                         <a href="/products/creation">Limpiar</a>
                     </button>
-                    <button type="submit" class="">
+                    <button  class="">
                         <a href="/products/creation">Guardar</a>
-                    </button> -->
+                    </button>
                 </div>
             </form>
         </section>

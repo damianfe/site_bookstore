@@ -1,0 +1,102 @@
+[
+   {
+      "id": 1,
+      "name": "La Bestia",
+      "author": "Carmen Mola",
+      "description": "Corre el año 1834 y Madrid, una pequeña ciudad que trata de abrirse paso más allá de las murallas que la rodean, sufre una terrible epidemia de cólera. Pero la peste no es lo único que aterroriza a sus habitantes: en los arrabales aparecen cadáveres desmembrados de niñas que nadie reclama. Todos los rumores apuntan a la Bestia, un ser a quien nadie ha visto pero al que todos temen.",
+      "price": 1450,
+      "category": "adultos",
+      "image": "bestia.png"
+   },
+   {
+      "id": 2,
+      "name": "Trilogia Fuego",
+      "author": "Joana Marcús",
+      "description": "Su cena es a las nueve en punto, su sueño dura exactamente ocho horas, jamás tiene una sola arruga en la ropa, parpadea 86400 veces al día, respira 30000 veces al día, solo habla cuando le preguntan, jamás ha levantado la voz y, lo más importante, jamás se ha preguntado qué pasaría si todo cambiara.",
+      "price": 2200,
+      "category": "jóvenes",
+      "image": "fuego.png"
+   },
+   {
+      "id": 3,
+      "name": "Operación Kazán",
+      "author": "Vicente Vallés",
+      "description": "«Una novela llena de intriga que, desde una perspectiva muy original, plantea un asunto de ficción que bien podría ser de la más absoluta realidad».",
+      "price": 8000,
+      "category": "adultos",
+      "image": "kazan.png"
+   },
+   {
+      "id": 4,
+      "name": "Mikecrack",
+      "author": "Mikecrack",
+      "description": "Amanece un nuevo día en Ciudad Cubo, y en casa de Mike y Trolli todo parece en calma. ¡Es el día de la excursión! Preparan todo lo necesario para sobrevivir en un bosque misterioso: linterna, brújula, chocolate y más chocolate",
+      "price": 2700,
+      "category": "infantil",
+      "image": "mike.png"
+   },
+   {
+      "id": 5,
+      "name": "Alicia en el país de las maravillas",
+      "author": "Lewis Carroll",
+      "description": "Estás a punto de entrar en el mundo de Alicia, el más extraño y asombroso, disparatado e insólito que hayas conocido y que jamás vas a olvidar. En este mundo, los gatos desaparecen sonrientes, las reinas tienen ejércitos de naipes, los conejos visten chaleco y te apremian para que los sigas. Y si los sigues, caerás por el agujero de su madriguera… Hasta el País de las Maravillas.Allí, las reglas que conocemos no funcionan; en el País de las Maravillas todo tiene su propia lógica. La hora del té no acaba nunca, Tiempo es un señor que se enfada si no sigues el compás cuando cantas y las lágrimas pueden llegar a formar un mar si justo en aquel momento tu cuerpo se encoge hasta ser diminuto. Desde su publicación, Alicia en el país de las maravillas ha fascinado a lectores como tú.",
+      "price": 2000,
+      "category": "infantil",
+      "image": "alicia.png"
+   },
+   {
+      "id": 6,
+      "name": "El castillo de Barbazul",
+      "author": "Javier Cercas",
+      "description": "Años después de lo ocurrido en Independencia, Melchor Marín ya no es policía: trabaja como bibliotecario y vive con su hija Cosette, convertida en una adolescente. Un día, Cosette descubre que su padre le ha ocultado cómo murió su madre, y este hecho la confunde y la subleva. Poco después parte de vacaciones a Mallorca, pero no regresa; tampoco contesta los mensajes ni las llamadas de Melchor, quien, convencido de que algo malo ha ocurrido, decide plantarse en la isla en busca de ella. A partir de aquí la novela se adentra en un laberinto absorbente, a la vez siniestro y luminoso, donde Melchor descubre que los seres humanos somos capaces de lo peor, pero también de lo mejor: que vivimos rodeados de violencia, mentiras, abusos de poder y cobardía, pero que también hay gente capaz de jugárselo todo por una causa justa. Astuta y felizmente disfrazada de novela de aventuras, El castillo de Barbazul acaba de desenmascarar las novelas de la Terra Alta como lo que son: el proyecto literario más ambicioso de Javier Cercas.",
+      "price": 2860,
+      "category": "adultos",
+      "image": "el-castillo-de-barbazul.png"
+   },
+   {
+      "id": 7,
+      "name": "Las aventuras de Pinocho",
+      "author": "Carlo Collodi",
+      "description": "Geppetto tomó en seguida las herramientas y se puso a esculpir y a fabricar su muñeco.«¿Qué nombre le pondré? —se preguntó—. Le voy a llamar Pinocho. Este nombre le traerá suerte.»",
+      "price": 5770,
+      "category": "infantil",
+      "image": "pinocho.png"
+   },
+   {
+      "id": 8,
+      "name": "A Dos Metros De Ti",
+      "author": "Lippincott Rachael",
+      "description": "La novela que ahora llega a la pantalla grande protagonizada por Cole Sprouse y Haley Lu Richardson ¿Puedes amar a alguien que no puedes tocar? Stella y Will tienen la misma enfermedad pulmonar, en el mismo hospital. Cuando se enamoran, recuperan la alegría de vivir, pero hay un problema: por el peligro de contagio, no pueden acercarse a menos de dos metros sin arriesgar sus vidas",
+      "price": 2700,
+      "category": "jóvenes",
+      "image": "a-dos-metros-de-ti.png"
+   },
+   {
+      "id": 9,
+      "name": "Dormir En Un Mar De Estrellas",
+      "author": "Paolini Christopher",
+      "description": "Durante una misión de inspección de rutina en un planeta no colonizado, la xenobióloga Kira Navárez encuentra una reliquia alienígena que la empuja a las maravillas y pesadillas del primer contacto. Las batallas espaciales épicas por el destino de la humanidad la llevan a los confines de la galaxia y, en el proceso, transforman no solo a ella, sino a todo el curso de la historia.",
+      "price": 3150,
+      "category": "adultos",
+      "image": "dormir-en-un-mar-de-estrellas.png"
+   },
+   {
+      "id": 10,
+      "name": "Boulevard",
+      "author": "Salvador Flor",
+      "description": "Luke Howland, lleno de problemas y sumido en una desesperación profunda, y Hasley Weigel, tan despistada como optimista, no se ajustan al prototipo de pareja perfecta. Como si cada uno fuese un cielo, uno es tormenta y el otro, un día soleado: él es oscuridad. Ella, un rayo de sol. Y, sin embargo, juntos decidieron ponerle nombre a lo que habían creado: un boulevard teñido de tonos grisáceos y de azules celestes y eléctricos preparándose para la tormenta. Ella era para él y él era para ella. ",
+      "price": 1700,
+      "category": "jóvenes",
+      "image": "boulevard.png"
+   },
+   {
+      "id": 11,
+      "name": "La Bestia NUEVA EDICION MAS ALLA DE TODO",
+      "author": "Carmen Mola",
+      "description": "Corre el año 1834 y Madrid, una pequeña ciudad que trata de abrirse paso más allá de las murallas que la rodean, sufre una terrible epidemia de cólera. Pero la peste no es lo único que aterroriza a sus habitantes: en los arrabales aparecen cadáveres desmembrados de niñas que nadie reclama. Todos los rumores apuntan a la Bestia, un ser a quien nadie ha visto pero al que todos temen.",
+      "price": 6000,
+      "category": "jovenes",
+      "image": "bestia.png"
+   }
+   
+]

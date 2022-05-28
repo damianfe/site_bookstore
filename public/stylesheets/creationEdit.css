@@ -79,6 +79,7 @@
     padding: 10px;
     margin: 10px;
     transition: all 0.5s ease-in;
+    font-size: 14px;
 }
 .creaEdit-button button:hover{
     color: var(--white);
@@ -109,6 +110,9 @@
         width: 100%;
     }
     .creaEdit-div{
+        width: 45%;
+    }
+    .creaEdit-button{
         width: 45%;
     }
     .creaEdit-button button{

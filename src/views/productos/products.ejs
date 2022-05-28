@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('partials/head') %>
+    <body>
+      <%- include('partials/header') %>
+
+        <main class="main-catalogo">
+            <h1 class="titulo-catalogo">Productos</h1>
+            <hr class="hr-separacion">
+            <div class="container-catego">
+                <div class="category_list">
+                    <ul class="orden__lista">
+                       <li class="orden__lista_li"><a class="orden__lista_li_a" href="#" category="all">Todo</a></li> 
+                       <li class="orden__lista_li"><a href="#"  category="adultos">Adultos</a></li>
+                        <li class="orden__lista_li"><a href="#" category="jovenes">Jovenes</a></li>
+                        <li class="orden__lista_li"><a href="#" category="niños">Niños</a></li>
+                        <li class="orden__lista_li"><a href="#" category="genero">Genero</a></li>
+                        <li class="orden__lista_li"><a href="#" category="audiolibros">Audiolibros</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                  <div class="orden-info">
+                    <label for="sort">Categorias</label>
+                    <select name="categoria" id="categoria">
+                      <option value="">Categorias</option>
+                      <option value="jovenes">Jovenes</option>
+                      <option value="niños">Niños</option>
+                      <option value="adulto">Adultos</option>
+                      
+                    </select>
+        
+                  </div>
+            </div>
+           
+              
+            <section class="section-producto">
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="/products/detail/"><img class="zoom" width="100%" src="/images/bestia.png" alt="La Bestia"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>La Bestia</p>
+                        <p class="precio-catalogo">$1450</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="/products/detail/"><img width="100%" src="/images/kazan.png" alt="Operacion Kazan"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>Operacion  Kazan</p>
+                        <p class="precio-catalogo">$8000</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="#"><img width="100%" src="/images/fuego.png" alt="trilogia Fuego"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>Trilogia Fuego</p>
+                        <p class="precio-catalogo">$2200</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="#"><img width="100%" src="/images/book-adults.png" alt="Dormir en un Mar de Estrella"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>Mar de Estrella</p>
+                        <p class="precio-catalogo">$4200</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="#"><img width="100%" src="/images/book-jovs.png" alt="a Dos metrs de ti"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>A dos Metros de ti</p>
+                        <p class="precio-catalogo">$8000</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="#"><img width="100%" src="/images/book-kids.png" alt="Operacion Kazan"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>Alicia el pais de las maravillas</p>
+                        <p class="precio-catalogo">$3325</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="#"><img width="100%" src="/images/fuego.png" alt="Operacion Kazan"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>Trilogia Fuego</p>
+                        <p class="precio-catalogo">$2200</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/cart"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                <article class="productos-catalogo">
+                    <div class="foto-catalogo">
+                        <a href="#"><img width="100%" src="/images/mike.png" alt="Mike Craft"></a><!-- image a photo -->
+                    </div>
+                    <article class="detalles-catalogo">
+                        <p>Mike Crack</p>
+                        <p class="precio-catalogo">$2700</p>
+                        <div class="reseña">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <button class="add-button">
+                            <a href="/products/detail/"><p class="add">Agregar al carrito</p></a>
+                        </button>
+                    </article>
+                </article>
+                
+            </section>
+            <div class="carrusel">
+                <div class="carrusel-items">
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c1.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c2.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c3.jpg" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c4.webp" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c5.webp" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c6.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c13.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c14.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c15.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c16.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c17.png" alt="" />
+                  </div>
+                  <div class="carrusel-item">
+                    <img src="/images/carrosuel/c12.webp" alt="" />
+                  </div>
+                </div>
+              </div>
+          </main>  
+          <%- include('partials/footer') %>   
+</body>
+</html>

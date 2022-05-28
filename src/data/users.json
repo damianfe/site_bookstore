@@ -1,0 +1,46 @@
+[{
+        "id": 1,
+        "first_name": "Mab",
+        "last_name": "Reinmar",
+        "email": "mreinmar0@uol.com.br",
+        "password": "DmljSL8VF",
+        "category": "user",
+        "image": "user_1.jpg"
+    },
+    {
+        "id": 2,
+        "first_name": "Deanna",
+        "last_name": "Ganderton",
+        "email": "dganderton1@mozilla.com",
+        "password": "KeGm4SFtLY9n",
+        "category": "user",
+        "image": "user_2.jpg"
+    },
+    {
+        "id": 3,
+        "first_name": "Janenna",
+        "last_name": "Truckett",
+        "email": "jtruckett2@deviantart.com",
+        "password": "Sqv3t9zu6F",
+        "category": "user",
+        "image": "user_3.jpg"
+    },
+    {
+        "id": 4,
+        "first_name": "Casandra",
+        "last_name": "Gawen",
+        "email": "cgawen3@wiley.com",
+        "password": "FPQb8B",
+        "category": "user",
+        "image": "user_4.jpg"
+    },
+    {
+        "id": 5,
+        "first_name": "Eli",
+        "last_name": "Cruess",
+        "email": "ecruess4@artisteer.com",
+        "password": "JVpcMPmiiYl",
+        "category": "user",
+        "image": "user_5.jpg"
+    }
+]
