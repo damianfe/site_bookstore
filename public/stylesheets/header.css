@@ -167,4 +167,43 @@ li a {
         display: flex;
         
     }
+    .button {
+        width: 80px;
+        height: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: rgb(10, 7, 7);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        position: relative;
+        transition: all 0.5s;
+        z-index: 1;
+       }
+       
+       .button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background-color: rgba(129, 92, 92, 0.63);
+        z-index: -1;
+        transition: all 0.5s;
+       }
+       
+       .button:hover::before {
+        width: 100%;
+       }
+       
+       .button:hover {
+        color: black;
+       }
+       
+      .button:active:before {
+        background: #b9b9b9;
+       }
 }

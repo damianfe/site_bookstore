@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <%- include('partials/head') %>
+  <%- include('../partials/head', {
+    title: "Paginas Bellas || Registro"
+}) %>
   <body>
-    <%- include('partials/header') %>
+    <%- include('../partials/header') %>
   <main class="register">
     <section class="register-box">
       <h2>Bienvenido</h2>
@@ -149,7 +151,7 @@
       </p>
     </section>
   </main>
-  <%- include('partials/footer') %>   
+  <%- include('../partials/footer') %>   
 </body>
 
 </html>

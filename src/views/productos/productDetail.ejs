@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <%- include('partials/head') %>
+    <%- include('../partials/head', {
+        title: 'Paginas Bellas || Detalle de Producto'
+    }) %>
+    
     <body>
-      <%- include('partials/header') %>
+      <%- include('../partials/header') %>
 
     <main>
+        
         
             <div class="detalle-producto">
                 <div class="imagenes">
                     <section class="imagen-principal">
-                        <img src="/images/bestia.png" alt="">
+                        <img src="/images/<%= product.image %>" alt="">
                     </section>
                 </div>
                 <div class="contenido-text">
                     <section class="detalles">
                         <div>
-                            <h1>la Bestia </h1>
+                            <h1><%= product.name %></h1>
                         </div>
                         <div class="price">
-                            <strong>$ 1450 </strong>
+                            <strong>$<%= product.price %> </strong>
                         </div>
                         <form>
                             <p class="clasificacion">
@@ -55,8 +59,14 @@
                                 <p class="add">Agregar al carrito</p>
                             </a>
                         </button>
-                       
+                        <button class="add-button">
+                            <a href="/products/edit/<%=product.id%>">
+                                <p class="add">Editar</p>
+                            </a>
                         </button>
+                        <form action="/products/delete/<%=product.id%>?_method=DELETE" method="POST"> 
+                            <button type="submit">Eliminar</button>
+                        </form>
                         <div class="medio-pago">
                             <a class="icon"><i class="fas fa-truck"></i></a>
                             <p>Modos De Envios</p>
@@ -68,16 +78,12 @@
                             </a>
                         </button>
                         <div class="descripcion">
-                            <h3 class="autor">Autor: Carmen Mola</h3>
-                            <p> "Corre el año 1834 y Madrid, una pequeña ciudad que trata de abrirse paso más allá de las murallas que la rodean,
-                                sufre una terrible epidemia de cólera. Pero la peste no es lo único que aterroriza a sus habitantes: en los
-                                arrabales aparecen cadáveres desmembrados de niñas que nadie reclama. Todos los rumores apuntan a la Bestia, un ser
-                                a quien nadie ha visto pero al que todos temen.",
-                            </p>
+                            <h3 class="autor">Autor:<%= product.author %></h3>
+                            <p><%= product.description %></p>
                             <p class=" descripcion-libro">
-                            <p>corresponde a: La Bestia</p>
+                            <p>corresponde a:<%= product.name %> </p>
                             <p class="caractisticas-libro">
-                                Autor: Maria Dueñas
+                                Autor: <%= product.author %> 
                                 Editorial: Planeta
                                 Categoría: Ficción
                                 Año: 2014
@@ -94,6 +100,7 @@
                     </section>
                 </div>
             </div>
+           
         
         
             <h4>Productos Relacionados</h4>
@@ -332,7 +339,7 @@
 
         </section>
     </main>
-    <%- include('partials/footer') %>
+    <%- include('../partials/footer') %>
 </body>
 
 </html>

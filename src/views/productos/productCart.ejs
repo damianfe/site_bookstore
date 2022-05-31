@@ -1,9 +1,11 @@
 <!DOCTYPE html>
   <html lang="en">
   
-      <%- include('partials/head') %>
+    <%- include('../partials/head', {
+        title: 'Paginas Bellas || Carrito'
+    }) %>
       <body>
-        <%- include('partials/header') %>
+        <%- include('../partials/header') %>
   
 
 <main class="productCart">
@@ -17,11 +19,11 @@
     </div>
         <article class="productCart-Article">
             <div class="article-img">
-            <a href="/product/detail/"> <img src="/images/bestia.png" alt="bestia"></a>
+            <a href="/products/detail/"> <img src="/images/bestia.png" alt="bestia"></a>
         </div>
         <div class="info-article">
             <div class="info-article-titulos">
-            <a href="/product/detail/">La bestia</a>
+            <a href="/products/detail/">La bestia</a>
             <span>Carmen Mola</span>
             <p>Libro</p>
             </div>
@@ -36,10 +38,10 @@
         </article>
         <article class="productCart-Article">
             <div class="article-img"> 
-                <a href="/products/detail"><img src="/images/kazan.png" alt="kazan"></a></div>
+                <a href="/products/detail/"><img src="/images/kazan.png" alt="kazan"></a></div>
             <div class="info-article">
                 <div class="info-article-titulos">
-                <a href="">Operacion kazan</a>
+                <a href="/products/detail/">Operacion kazan</a>
                 <span>Vicente Valles</span>
                 <p>Libro</p>
             </div>
@@ -51,7 +53,7 @@
         </div>
         </article>
         <article class="productCart-Article">
-            <div class="article-img"> <a href=""><img src="/images/fuego.png" alt="Fuego"></a>
+            <div class="article-img"> <a href="/products/detail/"><img src="/images/fuego.png" alt="Fuego"></a>
             </div>
             <div class="info-article">
                 <div class="info-article-titulo">
