@@ -13,7 +13,7 @@ processRegister: (req, res) => {
 
     if (errors.isEmpty()) {
       let { first_name,last_name, email, password} = req.body;
-      let lastID = usuarios.length !== 0 ? usuarios[usuarios.length - 1].id : 0;
+      let lastID = users.length !== 0 ? usuarios[users.length - 1].id : 0;
       let nuevoUsuario = {
         id: +lastID + 1,
         first_name: first_name.trim(),
